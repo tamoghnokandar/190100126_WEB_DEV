@@ -1,0 +1,55 @@
+div.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+ 
+  
+}
+.btn {
+  
+  border: none;
+  background-color: Aqua;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  float:right;
+}
+
+.btn:hover {background: #eee;}
+
+.Resume {color: green;}
+.About {color: dodgerblue;}
+.Hobbies {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+.timetable {color: violet;}
+ul.a {
+  list-style-type: circle;
+  color:green;
+}
+.heading{
+	padding: 30px;
+}
+p{
+	font-size:20px;
+}
+body {
+  background-image: url('Background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+h1 {
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.contrast {filter: contrast(180%);}
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+}
+html {
+  scroll-behavior: smooth;
+}
