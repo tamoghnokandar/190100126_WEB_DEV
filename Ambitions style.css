@@ -1,0 +1,20 @@
+p{
+	color:Navy;
+	font-size:40px;
+}
+ul.square {
+  list-style-type: square;
+}
+li{
+	color:red;
+	font-size:30px;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+}
+html {
+  scroll-behavior: smooth;
+}
