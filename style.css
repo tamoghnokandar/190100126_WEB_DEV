@@ -47,7 +47,9 @@ h1 {
 html, body{
   height: 100%;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Galada', cursive;
+  /*"Montserrat", sans-serif;*/
+
   color: #222;
 }
 html {
