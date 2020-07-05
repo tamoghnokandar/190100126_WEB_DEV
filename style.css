@@ -11,6 +11,7 @@ div.fixed {
   background-color: Aqua;
   padding: 14px 28px;
   font-size: 16px;
+  font-family: 'Galada', cursive;
   cursor: pointer;
   display: inline-block;
   float:right;
