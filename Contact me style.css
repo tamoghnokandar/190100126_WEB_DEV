@@ -26,9 +26,14 @@
 html, body{
   height: 100%;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family:'Galada', cursive; 
+  /*"Montserrat", sans-serif;*/
   color: #222;
 }
 html {
   scroll-behavior: smooth;
+}
+a:hover{
+  transition-duration: 0.5s;
+  color: green;
 }
