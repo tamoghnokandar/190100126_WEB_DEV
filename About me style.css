@@ -12,6 +12,8 @@ th {
   background-color: DarkGoldenRod;
   color: white;
   font-family: 'Galada', cursive;
+  text-align: center;
+  
 }
 td{
 	height: 50px;
