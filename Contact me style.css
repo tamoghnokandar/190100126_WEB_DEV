@@ -37,10 +37,10 @@ a:hover{
   transition-duration: 0.5s;
   color: green;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   
   .fa{
-    font-size: 80px;
-    padding: 10px;
+    font-size: 2em;
+  padding: 0.7rem;
       }
     }
