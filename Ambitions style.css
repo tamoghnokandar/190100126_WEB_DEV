@@ -12,9 +12,13 @@ li{
 html, body{
   height: 100%;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family:'Galada', cursive;
+  /*"Montserrat", sans-serif;*/
   color: #222;
 }
 html {
   scroll-behavior: smooth;
+}
+h1{
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.4);
 }
