@@ -5,30 +5,70 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Galada&family=Modak&display=swap" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
 </head>
 <body>
 	<section id="container">
-        <div class="fixed">
+       <!-- <div class="fixed">
         <a href="Contact me.html"><button class="btn danger">Contact me</button></a>
         <a href="Resume.pdf"><button class="btn Resume">My Resume</button></a>
         <a href="Ambitions.html"><button class="btn timetable">Ambitions</button></a>
 		<a href="Hobbies.html"><button class="btn Hobbies">Hobbies</button></a>
 		<a href="About me.html"><button class="btn About">About Me</button></a>
-				</div>
+				</div>-->
+
 		<!-- This Division contains the top of the page, like my name and picture -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
+    <div class="container-fluid">
+     
+      	<h1 class="nav-head">Tamoghno Kandar</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target = "#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About me.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Hobbies.html">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Resume.pdf">My Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Ambitions.html">Ambitions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact me.html">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 				<div class = "heading" id="top">
 				<!-- <h3 id="pre-header"> <i> Hey, I'm </i>  </h3> -->
-				<h1 id = "main-header" style = "color:Yellow"> <center><b>Tamoghno Kandar</b></center>  </h1>
+				<!--<h1 id = "main-header" style = "color:Yellow"> <center><b>Tamoghno Kandar</b></center>  </h1>-->
+				</div>
 				  <marquee scrollamount="15"><p><b>Welcome to my homepage!!</b></p></marquee>
+				
 				<p style="text-align: center">
 				<center>
 					<img class="responsive contrast" src="Tamoghno.jpg" width=600px >
 			</center>
 				</p>
 				
-		</div>
 		
-		 
+		
+		
 	</section>
 </body>
 </html>
