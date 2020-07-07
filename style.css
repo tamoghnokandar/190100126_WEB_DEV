@@ -86,3 +86,71 @@ img {
 img:hover{
   transform: rotate(360deg);
 }
+  table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 50px;
+  background-color: DarkGoldenRod;
+  color: white;
+  font-family: 'Galada', cursive;
+  text-align: center;
+  
+}
+td{
+  height: 50px;
+  vertical-align: bottom;
+  font-family: 'Galada', cursive;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color: DarkTurquoise;}
+h1{
+  font-family: 'Galada', cursive;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.4);
+}
+h2{
+  font-family: 'Galada', cursive;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.4);
+}
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 90px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 2px;
+}
+
+.fa:hover {
+    color: #D5D5D5;
+  transition-duration: 0.5s;
+}
+
+.fa-facebook-official{
+  color: #3B5998;
+}
+.fa-instagram{
+  color:#C20806;
+}
+
+
+.fa-linkedin-square{
+  color: #0E76A8;
+}
+a:hover{
+  transition-duration: 0.5s;
+  color: green;
+}
+@media (max-width: 576px) {
+  
+  .fa{
+    font-size: 4em;
+  padding: 0.7rem;
+      }
+    }
