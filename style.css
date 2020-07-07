@@ -5,11 +5,26 @@ div.fixed {
  
   
 }
+.nav-head {
+  font-weight: 800;
+  font-size: 40px;
+  font-variant: small-caps;
+  text-align: center; 
+  opacity: 0.7;
+  text-shadow: 2px 4px 3px rgba(1,1,1,0.8);
+}
+
+.nav-item{
+  font-size: 20px;
+}
+/*
 .btn {
   
   border: none;
   background-color: Aqua;
   padding: 14px 28px;
+  font-weight:900;
+  font-variant: small-caps;
   font-size: 16px;
   font-family: 'Galada', cursive;
   cursor: pointer;
@@ -25,15 +40,18 @@ div.fixed {
 .danger {color: red;}
 .default {color: black;}
 .timetable {color: violet;}
+*/
 ul.a {
   list-style-type: circle;
   color:green;
 }
 .heading{
-	padding: 30px;
+	padding: 10px;
 }
 p{
-	font-size:20px;
+	font-size:40px;
+  color:yellow;
+ 
 }
 body {
   background-image: url('Background.jpg');
@@ -43,16 +61,28 @@ body {
 }
 h1 {
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-variant: small-caps;
+  font-size:60px;
 }
 .contrast {filter: contrast(180%);}
 html, body{
   height: 100%;
   width: 100%;
   font-family: 'Galada', cursive;
+  font-weight:900;
+   font-variant: small-caps;
+}
   /*"Montserrat", sans-serif;*/
 
   color: #222;
 }
 html {
   scroll-behavior: smooth;
+}
+img {
+ 
+  cursor:pointer;
+}
+img:hover{
+  transform: rotate(360deg);
 }
